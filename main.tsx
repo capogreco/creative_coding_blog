@@ -3,14 +3,14 @@
 import blog, { ga, redirects, h } from "blog";
 
 blog({
-  title: "Mx Capogreco's Excellent Blog",
-  description: "This is my new blog.",
+  title: "Creative Coding Blog!",
+  description: "Javascript, Communities of Practice, & Posthumanism",
   // header: <header>Your custom header</header>,
   // section: <section>Your custom section</section>,
   // footer: <footer>Your custom footer</footer>,
   avatar: "./images/rmit_pfp.jpeg",
   avatarClass: "rounded-full",
-  author: "An author",
+  author: "Thomas Capogreco",
 
   // middlewares: [
 
