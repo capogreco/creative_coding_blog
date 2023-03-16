@@ -9,7 +9,7 @@ blog({
   avatarClass: "rounded-full",
   author: "Thomas Capogreco",
   dateStyle: "dd-MM-yyyy",
-  dateFormat: (date) =>  new Intl.DateTimeFormat (
+  dateFormat: (date) => new Intl.DateTimeFormat (
       "en-GB", 
       { dateStyle: "long" }
     ).format (date),
