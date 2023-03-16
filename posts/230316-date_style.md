@@ -25,7 +25,7 @@ dateStyle: "dd-MM-yyyy",
 Similarly, the format `deno_blog` uses when displaying dates can be specified, using `dateFormat: ` in the same object, as below:
 
 ```javascript
-dateFormat: (date) =>  new Intl.DateTimeFormat (
+dateFormat: (date) => new Intl.DateTimeFormat (
    "en-GB", 
    { dateStyle: "long" }
    ).format (date),
